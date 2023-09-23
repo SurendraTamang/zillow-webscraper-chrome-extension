@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Zillow Web Scraper",
+  "version": "1.0",
+  "description": "Scrape Zillow listings",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab","scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.zillow.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+

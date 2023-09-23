@@ -1,0 +1,46 @@
+body {
+    width: 300px;
+    /* Width of the popup box */
+    height: 200px;
+    /* Height of the popup box */
+    padding: 10px;
+    /* Space between the box edges and its content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for a 3D effect */
+    font-family: Arial, sans-serif;
+    /* Optional: Set a font for the text */
+}
+
+h2 {
+    text-align: center;
+    /* Center the title */
+    margin-bottom: 20px;
+    /* Space below the title */
+}
+
+p {
+    margin-bottom: 20px;
+    /* Space below the paragraph */
+}
+
+button {
+    display: block;
+    /* Make the button a block element */
+    width: 100%;
+    /* Make the button take the full width of the box */
+    padding: 10px;
+    /* Space inside the button */
+    background-color: #4CAF50;
+    /* Color of the button */
+    color: white;
+    /* Text color of the button */
+    border: none;
+    /* Remove the default border */
+    cursor: pointer;
+    /* Change the cursor to a hand when hovering over the button */
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Change the button color when hovering */
+}
