@@ -2,7 +2,8 @@
 # Zillow Web Scraper Chrome Extension
 
 This Chrome extension allows users to scrape property listings from Zillow and export the data as a CSV file.
-I used the [Adrian's gist](https://gist.github.com/adrianhorning08/6305b872e172c4cc74edcac57370c1f5) to create the crawler
+I used the [Adrian's gist](https://gist.github.com/adrianhorning08/6305b872e172c4cc74edcac57370c1f5) to create the crawler.
+Click and download
 
 ## Installation
 
